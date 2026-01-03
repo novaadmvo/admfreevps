@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo
+set -eu
 set -o pipefail 2>/dev/null || true
 
 umask 077
@@ -208,4 +208,5 @@ case $op in
 0) exit ;;
 esac
 done
+
 
