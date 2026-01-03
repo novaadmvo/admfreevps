@@ -1,3 +1,13 @@
+
+
+
+<img width="516" height="301" alt="image" src="https://github.com/user-attachments/assets/e947f0c4-51e8-4d4f-84dd-cdaeeb7b42aa" />
+
+
+
+
+
+
 # 🚀 ADM FREE — Panel de Administración para VPS (Debian/Ubuntu)
 
 **ADM FREE** es un panel de administración en Bash para servidores VPS que permite gestionar usuarios, conexiones, seguridad y servicios desde una interfaz terminal con un diseño moderno (*ZySSH / Glass / Premium*).
