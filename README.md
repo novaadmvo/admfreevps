@@ -86,6 +86,20 @@ adm-free
 
 ```
 
+EN CASO DE NO FUNCIONAR CON LOS COMANDOS DE ARRIBA PRUEBA ESTOS:
+
+```bash
+apt update && apt install curl -y && curl -fsSL https://raw.githubusercontent.com/novaadmvo/admfreevps/main/adm-free.sh | tr -d '\r' > /usr/local/bin/adm && chmod +x /usr/local/bin/adm && adm
+
+```
+DESPUES:
+
+```bash
+adm
+
+```
+
+
 📌 Advertencias
 
 Este script realiza cambios de configuración en el sistema (usuarios, SSH, firewall, etc.).
