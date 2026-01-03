@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -eu
 set -o pipefail 2>/dev/null || true
-
 umask 077
+
 
 [[ $EUID -ne 0 ]] && { echo "❌ Ejecuta como root"; exit 1; }
 
@@ -208,5 +208,6 @@ case $op in
 0) exit ;;
 esac
 done
+
 
 
