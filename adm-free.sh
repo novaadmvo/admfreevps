@@ -4,8 +4,8 @@ umask 077
 
 [[ $EUID -ne 0 ]] && { echo "❌ Ejecuta como root"; exit 1; }
 
-SCRIPT_REAL=$(readlink -f "$0")
-chmod 700 "$SCRIPT_REAL"
+# SCRIPT_REAL=$(readlink -f "$0")
+# [[ -f "$SCRIPT_REAL" ]] && chmod 700 "$SCRIPT_REAL"
 
 RED="\e[31m"; GREEN="\e[32m"; YELLOW="\e[33m"; BLUE="\e[34m"; CYAN="\e[36m"; MAGENTA="\e[35m"; WHITE="\e[97m"; GRAY="\e[90m"; RESET="\e[0m"
 
@@ -206,3 +206,4 @@ while true; do
         0) exit ;;
     esac
 done
+
